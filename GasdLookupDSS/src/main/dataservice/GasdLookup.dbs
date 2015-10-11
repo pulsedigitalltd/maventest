@@ -1,0 +1,22 @@
+<data name="gasd_lookup_ds" transports="http https">
+    <description/>
+    <config id="gasd_db">
+        <property name="org.wso2.ws.dataservice.user">root</property>
+        <property name="org.wso2.ws.dataservice.password">root</property>
+        <property name="org.wso2.ws.dataservice.protocol">jdbc:mysql://192.168.100.10:3306/gasd</property>
+        <property name="org.wso2.ws.dataservice.driver">com.mysql.jdbc.Driver</property>
+    </config>
+    <query id="makeModel" useConfig="gasd_db">
+      <sql>select distinct make, model from declaration where upper(CONCAT(make,' ', model)) LIKE upper(CONCAT('%', ?, '%'))</sql>
+      <result element="version" rowName="results">
+         <element column="make" name="Make" xsdType="string"/>
+         <element column="model" name="Model" xsdType="string"/>
+      </result>
+      <param defaultValue="%" name="q" ordinal="1" sqlType="STRING"/>
+   </query>
+   <operation name="search">
+      <call-query href="makeModel">
+         <with-param name="q" query-param="q"/>
+      </call-query>
+   </operation>
+</data>

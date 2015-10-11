@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_eWXwEFzDEeWDyqeVnlq1NQ" type="Esb" name="sequence_GasdLookup_APILevel_Throttling_Sequence.esb_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_eXCecFzDEeWDyqeVnlq1NQ" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_eXCedVzDEeWDyqeVnlq1NQ" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_eXtM0FzDEeWDyqeVnlq1NQ" type="3614">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_eXtM0VzDEeWDyqeVnlq1NQ"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_eXtM0lzDEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_eXtM01zDEeWDyqeVnlq1NQ"/>
+        <element xmi:type="esb:Sequences" href="sequence_GasdLookup_APILevel_Throttling_Sequence.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eXtM1FzDEeWDyqeVnlq1NQ" x="-1" y="-1" width="333" height="143"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_eXCecVzDEeWDyqeVnlq1NQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_eXCeclzDEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_eXCec1zDEeWDyqeVnlq1NQ"/>
+    <element xmi:type="esb:EsbServer" href="sequence_GasdLookup_APILevel_Throttling_Sequence.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eXCedFzDEeWDyqeVnlq1NQ"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_eWXwEVzDEeWDyqeVnlq1NQ"/>
+  <element xmi:type="esb:EsbDiagram" href="sequence_GasdLookup_APILevel_Throttling_Sequence.esb#/"/>
+</notation:Diagram>

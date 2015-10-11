@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence xmlns="http://ws.apache.org/ns/synapse" name="GasdLookup_APILevel_ThrottlingSequence">
+    <throttle id="GasdLookup_APILevel_Throttling_GROUP">
+        <onReject>
+            <log level="custom">
+                <property name="GasdLookup_APILevel_ThrottlingPolicy" value="*** Throttling applied - Denied ***"/>
+            </log>
+            <property name="CUSTOM_HTTP_SC" value="403" scope="default" type="STRING"/>
+            <property name="ERROR_CODE" value="error.search.throttled.out" scope="default" type="STRING"/>
+            <property name="ERROR_MESSAGE" value="Throttling applied - Access Denied" scope="default" type="STRING"/>
+            <sequence key="GasdLookup_API_Fault_Sequence"/>
+            <drop/>
+        </onReject>
+        <onAccept>
+            <log level="custom">
+                <property name="GasdLookup_APILevel_ThrottlingPolicy" value="*** Throttling applied - Accept ***"/>
+            </log>
+        </onAccept>
+    </throttle>
+</sequence>

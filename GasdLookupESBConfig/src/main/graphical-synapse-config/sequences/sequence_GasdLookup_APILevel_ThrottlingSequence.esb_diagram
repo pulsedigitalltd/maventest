@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/developerstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_ak2bsFzCEeWDyqeVnlq1NQ" type="Esb" name="sequence_GasdLookup_APILevel_ThrottlingSequence.esb_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_aogzsFzCEeWDyqeVnlq1NQ" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_aogztVzCEeWDyqeVnlq1NQ" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_bWX_QFzCEeWDyqeVnlq1NQ" type="3614">
+        <children xmi:type="notation:Node" xmi:id="_bWYmUFzCEeWDyqeVnlq1NQ" type="3615">
+          <children xmi:type="notation:DecorationNode" xmi:id="_bWYmVVzCEeWDyqeVnlq1NQ" type="7035">
+            <children xmi:type="notation:Node" xmi:id="_bWfUAFzCEeWDyqeVnlq1NQ" type="3493">
+              <children xmi:type="notation:DecorationNode" xmi:id="_bWfUBVzCEeWDyqeVnlq1NQ" type="5128"/>
+              <children xmi:type="notation:Node" xmi:id="_bWjlcFzCEeWDyqeVnlq1NQ" type="3121">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_bWjlcVzCEeWDyqeVnlq1NQ"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_bWjlclzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_bWjlc1zCEeWDyqeVnlq1NQ"/>
+                <element xmi:type="esb:ThrottleMediatorInputConnector" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@inputConnector"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bWjldFzCEeWDyqeVnlq1NQ" x="-6" y="-5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_bWjldVzCEeWDyqeVnlq1NQ" type="3122">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_bWjldlzCEeWDyqeVnlq1NQ"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_bWjld1zCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_bWjleFzCEeWDyqeVnlq1NQ"/>
+                <element xmi:type="esb:ThrottleMediatorOutputConnector" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@outputConnector"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bWjleVzCEeWDyqeVnlq1NQ" x="-11" y="-9"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_bWjlelzCEeWDyqeVnlq1NQ" type="3581">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_bWjle1zCEeWDyqeVnlq1NQ"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_bWjlfFzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_bWjlfVzCEeWDyqeVnlq1NQ"/>
+                <element xmi:type="esb:ThrottleMediatorOnAcceptOutputConnector" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@onAcceptOutputConnector"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bWjlflzCEeWDyqeVnlq1NQ"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_bWkMgFzCEeWDyqeVnlq1NQ" type="3582">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_bWkMgVzCEeWDyqeVnlq1NQ"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_bWkMglzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_bWkMg1zCEeWDyqeVnlq1NQ"/>
+                <element xmi:type="esb:ThrottleMediatorOnRejectOutputConnector" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@onRejectOutputConnector"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bWkMhFzCEeWDyqeVnlq1NQ"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_bWkMhVzCEeWDyqeVnlq1NQ" type="3583">
+                <children xmi:type="notation:Node" xmi:id="_bWod8FzCEeWDyqeVnlq1NQ" type="3584">
+                  <children xmi:type="notation:Node" xmi:id="_bWpFBVzCEeWDyqeVnlq1NQ" type="3585">
+                    <children xmi:type="notation:DecorationNode" xmi:id="_bWpFClzCEeWDyqeVnlq1NQ" type="7030">
+                      <children xmi:type="notation:Node" xmi:id="_bWxA0FzCEeWDyqeVnlq1NQ" type="3495">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_bWxA1VzCEeWDyqeVnlq1NQ" type="5168"/>
+                        <children xmi:type="notation:Node" xmi:id="_bWy2AFzCEeWDyqeVnlq1NQ" type="3018">
+                          <styles xmi:type="notation:DescriptionStyle" xmi:id="_bWy2AVzCEeWDyqeVnlq1NQ"/>
+                          <styles xmi:type="notation:FontStyle" xmi:id="_bWy2AlzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                          <styles xmi:type="notation:LineStyle" xmi:id="_bWy2A1zCEeWDyqeVnlq1NQ"/>
+                          <element xmi:type="esb:LogMediatorInputConnector" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onAcceptContainer/@mediatorFlow/@children.0/@inputConnector"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bWy2BFzCEeWDyqeVnlq1NQ" x="-6" y="-5"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_bWy2BVzCEeWDyqeVnlq1NQ" type="3019">
+                          <styles xmi:type="notation:DescriptionStyle" xmi:id="_bWy2BlzCEeWDyqeVnlq1NQ"/>
+                          <styles xmi:type="notation:FontStyle" xmi:id="_bWy2B1zCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                          <styles xmi:type="notation:LineStyle" xmi:id="_bWy2CFzCEeWDyqeVnlq1NQ"/>
+                          <element xmi:type="esb:LogMediatorOutputConnector" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onAcceptContainer/@mediatorFlow/@children.0/@outputConnector"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bWy2CVzCEeWDyqeVnlq1NQ" x="-11" y="-9"/>
+                        </children>
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_bWxA0VzCEeWDyqeVnlq1NQ"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_bWxA0lzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_bWxA01zCEeWDyqeVnlq1NQ"/>
+                        <element xmi:type="esb:LogMediator" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onAcceptContainer/@mediatorFlow/@children.0"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bWxA1FzCEeWDyqeVnlq1NQ" x="25" y="10" width="77" height="75"/>
+                      </children>
+                      <styles xmi:type="notation:TitleStyle" xmi:id="_bWpFC1zCEeWDyqeVnlq1NQ" showTitle="true"/>
+                    </children>
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_bWpFBlzCEeWDyqeVnlq1NQ"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_bWpFB1zCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_bWpFCFzCEeWDyqeVnlq1NQ"/>
+                    <element xmi:type="esb:MediatorFlow" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onAcceptContainer/@mediatorFlow"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bWpFCVzCEeWDyqeVnlq1NQ"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_bWod8VzCEeWDyqeVnlq1NQ"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_bWod8lzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_bWod81zCEeWDyqeVnlq1NQ"/>
+                  <element xmi:type="esb:ThrottleOnAcceptContainer" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onAcceptContainer"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bWod9FzCEeWDyqeVnlq1NQ"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_bWpFAFzCEeWDyqeVnlq1NQ" type="3586">
+                  <children xmi:type="notation:Node" xmi:id="_bWpsEFzCEeWDyqeVnlq1NQ" type="3587">
+                    <children xmi:type="notation:DecorationNode" xmi:id="_bWpsFVzCEeWDyqeVnlq1NQ" type="7031">
+                      <children xmi:type="notation:Node" xmi:id="_bW6KwFzCEeWDyqeVnlq1NQ" type="3495">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_bW6KxVzCEeWDyqeVnlq1NQ" type="5168"/>
+                        <children xmi:type="notation:Node" xmi:id="_bW7_8FzCEeWDyqeVnlq1NQ" type="3018">
+                          <styles xmi:type="notation:DescriptionStyle" xmi:id="_bW7_8VzCEeWDyqeVnlq1NQ"/>
+                          <styles xmi:type="notation:FontStyle" xmi:id="_bW7_8lzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                          <styles xmi:type="notation:LineStyle" xmi:id="_bW7_81zCEeWDyqeVnlq1NQ"/>
+                          <element xmi:type="esb:LogMediatorInputConnector" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onRejectContainer/@mediatorFlow/@children.0/@inputConnector"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bW7_9FzCEeWDyqeVnlq1NQ" x="-6" y="-5"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_bW7_9VzCEeWDyqeVnlq1NQ" type="3019">
+                          <styles xmi:type="notation:DescriptionStyle" xmi:id="_bW7_9lzCEeWDyqeVnlq1NQ"/>
+                          <styles xmi:type="notation:FontStyle" xmi:id="_bW7_91zCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                          <styles xmi:type="notation:LineStyle" xmi:id="_bW7_-FzCEeWDyqeVnlq1NQ"/>
+                          <element xmi:type="esb:LogMediatorOutputConnector" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onRejectContainer/@mediatorFlow/@children.0/@outputConnector"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bW7_-VzCEeWDyqeVnlq1NQ" x="-11" y="-9"/>
+                        </children>
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_bW6KwVzCEeWDyqeVnlq1NQ"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_bW6KwlzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_bW6Kw1zCEeWDyqeVnlq1NQ"/>
+                        <element xmi:type="esb:LogMediator" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onRejectContainer/@mediatorFlow/@children.0"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bW6KxFzCEeWDyqeVnlq1NQ" x="25" y="10" width="77" height="75"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_bXD7wFzCEeWDyqeVnlq1NQ" type="3492">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_bXD7xVzCEeWDyqeVnlq1NQ" type="5167"/>
+                        <children xmi:type="notation:Node" xmi:id="_bXFw8FzCEeWDyqeVnlq1NQ" type="3033">
+                          <styles xmi:type="notation:DescriptionStyle" xmi:id="_bXFw8VzCEeWDyqeVnlq1NQ"/>
+                          <styles xmi:type="notation:FontStyle" xmi:id="_bXFw8lzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                          <styles xmi:type="notation:LineStyle" xmi:id="_bXFw81zCEeWDyqeVnlq1NQ"/>
+                          <element xmi:type="esb:PropertyMediatorInputConnector" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onRejectContainer/@mediatorFlow/@children.1/@inputConnector"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bXFw9FzCEeWDyqeVnlq1NQ" x="-6" y="-5"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_bXFw9VzCEeWDyqeVnlq1NQ" type="3034">
+                          <styles xmi:type="notation:DescriptionStyle" xmi:id="_bXFw9lzCEeWDyqeVnlq1NQ"/>
+                          <styles xmi:type="notation:FontStyle" xmi:id="_bXFw91zCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                          <styles xmi:type="notation:LineStyle" xmi:id="_bXFw-FzCEeWDyqeVnlq1NQ"/>
+                          <element xmi:type="esb:PropertyMediatorOutputConnector" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onRejectContainer/@mediatorFlow/@children.1/@outputConnector"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bXFw-VzCEeWDyqeVnlq1NQ" x="-11" y="-9"/>
+                        </children>
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_bXD7wVzCEeWDyqeVnlq1NQ"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_bXD7wlzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_bXD7w1zCEeWDyqeVnlq1NQ"/>
+                        <element xmi:type="esb:PropertyMediator" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onRejectContainer/@mediatorFlow/@children.1"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bXD7xFzCEeWDyqeVnlq1NQ" x="142" y="10" width="77" height="75"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_bXMeoFzCEeWDyqeVnlq1NQ" type="3492">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_bXNFsFzCEeWDyqeVnlq1NQ" type="5167"/>
+                        <children xmi:type="notation:Node" xmi:id="_bXO64FzCEeWDyqeVnlq1NQ" type="3033">
+                          <styles xmi:type="notation:DescriptionStyle" xmi:id="_bXO64VzCEeWDyqeVnlq1NQ"/>
+                          <styles xmi:type="notation:FontStyle" xmi:id="_bXO64lzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                          <styles xmi:type="notation:LineStyle" xmi:id="_bXO641zCEeWDyqeVnlq1NQ"/>
+                          <element xmi:type="esb:PropertyMediatorInputConnector" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onRejectContainer/@mediatorFlow/@children.2/@inputConnector"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bXO65FzCEeWDyqeVnlq1NQ" x="-6" y="-5"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_bXO65VzCEeWDyqeVnlq1NQ" type="3034">
+                          <styles xmi:type="notation:DescriptionStyle" xmi:id="_bXO65lzCEeWDyqeVnlq1NQ"/>
+                          <styles xmi:type="notation:FontStyle" xmi:id="_bXO651zCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                          <styles xmi:type="notation:LineStyle" xmi:id="_bXO66FzCEeWDyqeVnlq1NQ"/>
+                          <element xmi:type="esb:PropertyMediatorOutputConnector" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onRejectContainer/@mediatorFlow/@children.2/@outputConnector"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bXO66VzCEeWDyqeVnlq1NQ" x="-11" y="-9"/>
+                        </children>
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_bXMeoVzCEeWDyqeVnlq1NQ"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_bXMeolzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_bXMeo1zCEeWDyqeVnlq1NQ"/>
+                        <element xmi:type="esb:PropertyMediator" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onRejectContainer/@mediatorFlow/@children.2"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bXMepFzCEeWDyqeVnlq1NQ" x="259" y="10" width="77" height="75"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_bXWPoFzCEeWDyqeVnlq1NQ" type="3492">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_bXWPpVzCEeWDyqeVnlq1NQ" type="5167"/>
+                        <children xmi:type="notation:Node" xmi:id="_bXYE0FzCEeWDyqeVnlq1NQ" type="3033">
+                          <styles xmi:type="notation:DescriptionStyle" xmi:id="_bXYE0VzCEeWDyqeVnlq1NQ"/>
+                          <styles xmi:type="notation:FontStyle" xmi:id="_bXYE0lzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                          <styles xmi:type="notation:LineStyle" xmi:id="_bXYE01zCEeWDyqeVnlq1NQ"/>
+                          <element xmi:type="esb:PropertyMediatorInputConnector" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onRejectContainer/@mediatorFlow/@children.3/@inputConnector"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bXYE1FzCEeWDyqeVnlq1NQ" x="-6" y="-5"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_bXYE1VzCEeWDyqeVnlq1NQ" type="3034">
+                          <styles xmi:type="notation:DescriptionStyle" xmi:id="_bXYE1lzCEeWDyqeVnlq1NQ"/>
+                          <styles xmi:type="notation:FontStyle" xmi:id="_bXYE11zCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                          <styles xmi:type="notation:LineStyle" xmi:id="_bXYE2FzCEeWDyqeVnlq1NQ"/>
+                          <element xmi:type="esb:PropertyMediatorOutputConnector" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onRejectContainer/@mediatorFlow/@children.3/@outputConnector"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bXYE2VzCEeWDyqeVnlq1NQ" x="-11" y="-9"/>
+                        </children>
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_bXWPoVzCEeWDyqeVnlq1NQ"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_bXWPolzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_bXWPo1zCEeWDyqeVnlq1NQ"/>
+                        <element xmi:type="esb:PropertyMediator" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onRejectContainer/@mediatorFlow/@children.3"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bXWPpFzCEeWDyqeVnlq1NQ" x="376" y="10" width="77" height="75"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_bXs08FzCEeWDyqeVnlq1NQ" type="3503">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_bXs09VzCEeWDyqeVnlq1NQ" type="5132"/>
+                        <children xmi:type="notation:Node" xmi:id="_bXuqIFzCEeWDyqeVnlq1NQ" type="3049">
+                          <styles xmi:type="notation:DescriptionStyle" xmi:id="_bXuqIVzCEeWDyqeVnlq1NQ"/>
+                          <styles xmi:type="notation:FontStyle" xmi:id="_bXuqIlzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                          <styles xmi:type="notation:LineStyle" xmi:id="_bXuqI1zCEeWDyqeVnlq1NQ"/>
+                          <element xmi:type="esb:SequenceInputConnector" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onRejectContainer/@mediatorFlow/@children.4/@inputConnector"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bXuqJFzCEeWDyqeVnlq1NQ"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_bXv4QFzCEeWDyqeVnlq1NQ" type="3050">
+                          <styles xmi:type="notation:DescriptionStyle" xmi:id="_bXv4QVzCEeWDyqeVnlq1NQ"/>
+                          <styles xmi:type="notation:FontStyle" xmi:id="_bXv4QlzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                          <styles xmi:type="notation:LineStyle" xmi:id="_bXv4Q1zCEeWDyqeVnlq1NQ"/>
+                          <element xmi:type="esb:SequenceOutputConnector" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onRejectContainer/@mediatorFlow/@children.4/@outputConnector.0"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bXv4RFzCEeWDyqeVnlq1NQ"/>
+                        </children>
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_bXs08VzCEeWDyqeVnlq1NQ"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_bXs08lzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_bXs081zCEeWDyqeVnlq1NQ"/>
+                        <element xmi:type="esb:Sequence" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onRejectContainer/@mediatorFlow/@children.4"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bXs09FzCEeWDyqeVnlq1NQ" x="493" y="10" width="179" height="75"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_bX0wwFzCEeWDyqeVnlq1NQ" type="3491">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_bX1X0FzCEeWDyqeVnlq1NQ" type="5166"/>
+                        <children xmi:type="notation:Node" xmi:id="_bX2l8FzCEeWDyqeVnlq1NQ" type="3008">
+                          <styles xmi:type="notation:DescriptionStyle" xmi:id="_bX2l8VzCEeWDyqeVnlq1NQ"/>
+                          <styles xmi:type="notation:FontStyle" xmi:id="_bX2l8lzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                          <styles xmi:type="notation:LineStyle" xmi:id="_bX2l81zCEeWDyqeVnlq1NQ"/>
+                          <element xmi:type="esb:DropMediatorInputConnector" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onRejectContainer/@mediatorFlow/@children.5/@inputConnector"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bX2l9FzCEeWDyqeVnlq1NQ"/>
+                        </children>
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_bX0wwVzCEeWDyqeVnlq1NQ"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_bX0wwlzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_bX0ww1zCEeWDyqeVnlq1NQ"/>
+                        <element xmi:type="esb:DropMediator" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onRejectContainer/@mediatorFlow/@children.5"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bX0wxFzCEeWDyqeVnlq1NQ" x="712" y="10" width="77" height="75"/>
+                      </children>
+                      <styles xmi:type="notation:TitleStyle" xmi:id="_bWqTIFzCEeWDyqeVnlq1NQ" showTitle="true"/>
+                    </children>
+                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_bWpsEVzCEeWDyqeVnlq1NQ"/>
+                    <styles xmi:type="notation:FontStyle" xmi:id="_bWpsElzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                    <styles xmi:type="notation:LineStyle" xmi:id="_bWpsE1zCEeWDyqeVnlq1NQ"/>
+                    <element xmi:type="esb:MediatorFlow" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onRejectContainer/@mediatorFlow"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bWpsFFzCEeWDyqeVnlq1NQ"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_bWpFAVzCEeWDyqeVnlq1NQ"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_bWpFAlzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_bWpFA1zCEeWDyqeVnlq1NQ"/>
+                  <element xmi:type="esb:ThrottleOnRejectContainer" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onRejectContainer"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bWpFBFzCEeWDyqeVnlq1NQ"/>
+                </children>
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_bWkMhlzCEeWDyqeVnlq1NQ"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_bWkMh1zCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_bWkMiFzCEeWDyqeVnlq1NQ"/>
+                <element xmi:type="esb:ThrottleContainer" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bWkMiVzCEeWDyqeVnlq1NQ"/>
+              </children>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_bWfUAVzCEeWDyqeVnlq1NQ"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_bWfUAlzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_bWfUA1zCEeWDyqeVnlq1NQ"/>
+              <element xmi:type="esb:ThrottleMediator" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bWfUBFzCEeWDyqeVnlq1NQ" x="25" y="146" width="170" height="100"/>
+            </children>
+            <styles xmi:type="notation:TitleStyle" xmi:id="_bWYmVlzCEeWDyqeVnlq1NQ" showTitle="true"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_bWYmUVzCEeWDyqeVnlq1NQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_bWYmUlzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_bWYmU1zCEeWDyqeVnlq1NQ"/>
+          <element xmi:type="esb:MediatorFlow" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bWYmVFzCEeWDyqeVnlq1NQ"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_bWYmV1zCEeWDyqeVnlq1NQ" type="3616">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_bWYmWFzCEeWDyqeVnlq1NQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_bWYmWVzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_bWYmWlzCEeWDyqeVnlq1NQ"/>
+          <element xmi:type="esb:SequencesInputConnector" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@inputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bWYmW1zCEeWDyqeVnlq1NQ" x="-11" y="-9"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_bWYmXFzCEeWDyqeVnlq1NQ" type="3617">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_bWYmXVzCEeWDyqeVnlq1NQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_bWYmXlzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_bWYmX1zCEeWDyqeVnlq1NQ"/>
+          <element xmi:type="esb:SequencesOutputConnector" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@outputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bWYmYFzCEeWDyqeVnlq1NQ" x="-11" y="-9"/>
+        </children>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_bWX_QVzCEeWDyqeVnlq1NQ"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_bWX_QlzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_bWX_Q1zCEeWDyqeVnlq1NQ"/>
+        <element xmi:type="esb:Sequences" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bWX_RFzCEeWDyqeVnlq1NQ" width="195" height="125"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_aogzsVzCEeWDyqeVnlq1NQ"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_aogzslzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_aogzs1zCEeWDyqeVnlq1NQ"/>
+    <element xmi:type="esb:EsbServer" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aogztFzCEeWDyqeVnlq1NQ"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_ak2bsVzCEeWDyqeVnlq1NQ"/>
+  <element xmi:type="esb:EsbDiagram" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_bX8skFzCEeWDyqeVnlq1NQ" type="4001" source="_bWjlelzCEeWDyqeVnlq1NQ" target="_bWy2AFzCEeWDyqeVnlq1NQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_bX8skVzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@onAcceptOutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bX8sklzCEeWDyqeVnlq1NQ" points="[11, -8, -11, 8]$[16, -12, -6, 4]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_bX_I0FzCEeWDyqeVnlq1NQ" type="4001" source="_bWkMgFzCEeWDyqeVnlq1NQ" target="_bW7_8FzCEeWDyqeVnlq1NQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_bX_I0VzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@onRejectOutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bX_I0lzCEeWDyqeVnlq1NQ" points="[11, -8, -11, 8]$[16, -12, -6, 4]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_bYA-AFzCEeWDyqeVnlq1NQ" type="4001" source="_bW7_9VzCEeWDyqeVnlq1NQ" target="_bXFw8FzCEeWDyqeVnlq1NQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_bYA-AVzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onRejectContainer/@mediatorFlow/@children.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bYA-AlzCEeWDyqeVnlq1NQ" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_bYFPcFzCEeWDyqeVnlq1NQ" type="4001" source="_bXFw9VzCEeWDyqeVnlq1NQ" target="_bXO64FzCEeWDyqeVnlq1NQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_bYFPcVzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onRejectContainer/@mediatorFlow/@children.1/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bYFPclzCEeWDyqeVnlq1NQ" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_bYHEoFzCEeWDyqeVnlq1NQ" type="4001" source="_bXO65VzCEeWDyqeVnlq1NQ" target="_bXYE0FzCEeWDyqeVnlq1NQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_bYHEoVzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onRejectContainer/@mediatorFlow/@children.2/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bYHEolzCEeWDyqeVnlq1NQ" points="[-11, 0, -6, 0]$[1, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_bYI50FzCEeWDyqeVnlq1NQ" type="4001" source="_bXYE1VzCEeWDyqeVnlq1NQ" target="_bXuqIFzCEeWDyqeVnlq1NQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_bYI50VzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onRejectContainer/@mediatorFlow/@children.3/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bYI50lzCEeWDyqeVnlq1NQ" points="[1, 9, 0, 4]$[0, 0, -1, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_bYLWEFzCEeWDyqeVnlq1NQ" type="4001" source="_bXv4QFzCEeWDyqeVnlq1NQ" target="_bX2l8FzCEeWDyqeVnlq1NQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_bYLWEVzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@throttleContainer/@onRejectContainer/@mediatorFlow/@children.4/@outputConnector.0/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bYLWElzCEeWDyqeVnlq1NQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_bYNyUFzCEeWDyqeVnlq1NQ" type="4001" source="_bWYmXFzCEeWDyqeVnlq1NQ" target="_bWjlcFzCEeWDyqeVnlq1NQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_bYNyUVzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bYNyUlzCEeWDyqeVnlq1NQ" points="[6, 9, 0, -17]$[0, 21, -6, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_bYQOkFzCEeWDyqeVnlq1NQ" type="4001" source="_bWjldVzCEeWDyqeVnlq1NQ" target="_bWYmV1zCEeWDyqeVnlq1NQ" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_bYQOkVzCEeWDyqeVnlq1NQ" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="sequence_GasdLookup_APILevel_ThrottlingSequence.esb#//@server/@children.0/@mediatorFlow/@children.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bYQOklzCEeWDyqeVnlq1NQ" points="[-1, -9, 0, 17]$[0, -17, 1, 9]"/>
+  </edges>
+</notation:Diagram>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence xmlns="http://ws.apache.org/ns/synapse" name="GasdLookup_API_Response_Formatter_Sequence">
+    <switch source="get-property('axis2','HTTP_SC')">
+        <case regex="400|404|409">
+            <switch source="get-property('axis2','HTTP_SC')">
+                <case regex="400">
+                    <property name="HTTP_SC" value="400" scope="axis2" type="STRING"/>
+                    <property name="error_code" value="error.search.bad.request" scope="default" type="STRING"/>
+                </case>
+                <case regex="404">
+                    <property name="HTTP_SC" value="404" scope="axis2" type="STRING"/>
+                    <property name="error_code" value="error.search.no.results.found" scope="default" type="STRING"/>
+                </case>
+                <case regex="409">
+                    <property name="HTTP_SC" value="409" scope="axis2" type="STRING"/>
+                    <property name="error_code" value="error.search.conflict" scope="default" type="STRING"/>
+                </case>
+                <default>
+                    <property name="error_code" value="error.search.service.failure" scope="default" type="STRING"/>
+                </default>
+            </switch>
+            <payloadFactory media-type="json">
+                <format>
+{
+   "ok":"false",
+   "failures":{
+      "level":"warn",
+      "code":"$1",
+      "notified":"false"
+   }
+}
+        </format>
+                <args>
+                    <arg evaluator="xml" expression="get-property('error_code')"/>
+                </args>
+            </payloadFactory>
+            <property name="messageType" value="application/json" scope="axis2" type="STRING"/>
+        </case>
+        <default/>
+    </switch>
+</sequence>

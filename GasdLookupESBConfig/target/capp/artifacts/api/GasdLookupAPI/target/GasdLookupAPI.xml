@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api xmlns="http://ws.apache.org/ns/synapse" name="GasdLookupAPI" context="/services/energysafety/gasdlookup">
+    <resource methods="GET" uri-template="/search*" faultSequence="GasdLookup_API_Fault_Sequence">
+        <inSequence>
+            <log level="custom" separator=",">
+                <property name="MSG_LOG" value="GET call to GasdLookup search received"/>
+                <property name="MSG_LOG" value=">> q = {query.param.q}"/>
+            </log>
+            <sequence key="AddressLookup_APILevel_ThrottlingSequence"/>
+            <property name="Content-Type" value="application/json" scope="transport" type="STRING"/>
+            <property name="Accept" value="application/json" scope="transport" type="STRING"/>
+            <property name="query.param.q" value="get-property('query.param.q')" scope="default" type="STRING"/>
+            <send>
+                <endpoint key="conf:endpoints/energysafety/gasd_lookup/GasdLookup_Search_EP.xml"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <log level="custom" separator=",">
+                <property name="MSG_LOG" value="MSG returning to client from GasdLookup backend"/>
+                <property name="MSG_LOG" value="get-property('axis2','HTTP_SC')"/>
+            </log>
+            <sequence key="GasdLookup_API_Response_Formatter_Sequence"/>
+            <send/>
+        </outSequence>
+    </resource>
+</api>

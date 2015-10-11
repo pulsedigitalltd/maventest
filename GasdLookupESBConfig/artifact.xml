@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="GasdLookupAPI" groupId="nz.govt.mbie.esb.GasdLookupESBConfig.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/GasdLookupAPI.xml</file>
+    </artifact>
+            <artifact name="GasdLookup_API_Fault_Sequence" groupId="nz.govt.mbie.esb.GasdLookupESBConfig.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/GasdLookup_API_Fault_Sequence.xml</file>
+    </artifact>
+    <artifact name="GasdLookup_API_Response_Formatter_Sequence" groupId="nz.govt.mbie.esb.GasdLookupESBConfig.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/GasdLookup_API_Response_Formatter_Sequence.xml</file>
+    </artifact>
+    <artifact name="GasdLookup_APILevel_Throttling_Sequence" groupId="nz.govt.mbie.esb.GasdLookupESBConfig.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/GasdLookup_APILevel_Throttling_Sequence.xml</file>
+    </artifact>
+</artifacts>
